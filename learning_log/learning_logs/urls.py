@@ -22,4 +22,5 @@ urlpatterns =[
 
     # 用于编辑条目的页面
     url(r'^edit_entry/(?P<entry_id>\d+)/$', views.edit_entry, name='edit_entry'),
+
 ]
